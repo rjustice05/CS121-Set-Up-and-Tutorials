@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-21.0.2_4d346a1f07d11ab24915f8f8f3b0c3408c131517.jar" />
+    </item>
+    <item
+        jar="/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c5b574e46746d502b1055ff83170b09ac35c50ef">
+        <dex dex="/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/pre-dexed/debug/instant-run-bootstrap_03469ba846c24a9e3abfc2f75a357b36cc39ac12.jar" />
+    </item>
+    <item
+        jar="/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e6b24d3df707f8bdbfda749f4438af39408261d9">
+        <dex dex="/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/pre-dexed/debug/instant-run_acdfde011da33b9af25ec9d4ab62c678882d7bda.jar" />
+    </item>
+
+</items>

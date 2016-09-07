@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/res/merged/debug/layout/activity_card_view.xml",
+        "source": "/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/src/main/res/layout/activity_card_view.xml"
+    },
+    {
+        "merged": "/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/build/intermediates/res/merged/debug/layout/fragment_card_view.xml",
+        "source": "/Users/rebekahjustice/Documents/Fall2016/CS121/CardView/Application/src/main/res/layout/fragment_card_view.xml"
+    }
+]
