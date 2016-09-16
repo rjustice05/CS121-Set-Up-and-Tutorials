@@ -23,28 +23,32 @@
             android:layout_height="wrap_content"
             android:text="News"
             android:id="@+id/News"
-            android:checked="true" />
+            android:checked="true"
+            android:onClick="NewsFeed" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Books"
             android:id="@+id/Books"
-            android:checked="false" />
+            android:checked="false"
+            android:onClick="Books"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Journals"
             android:id="@+id/Journals"
-            android:checked="false" />
+            android:checked="false"
+            android:onClick="Journals"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Magazines"
             android:id="@+id/Magazines"
-            android:checked="false" />
+            android:checked="false"
+            android:onClick="Magazines"/>
     </RadioGroup>
 
 </LinearLayout>

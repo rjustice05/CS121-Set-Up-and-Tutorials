@@ -25,4 +25,6 @@ public class Article {
     public String toString() {
         return this.id + ". " + this.name + " [$" + this.price + "]";
     }
+
+    public String getWebsite() {return this.website;}
 }

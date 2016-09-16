@@ -1,8 +1,12 @@
 package com.example.listdisplay.listdisplay;
 
-import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
+import android.app.Activity;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -36,12 +40,39 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> parent, View view, int position,
                                     long id) {
 
-                String item = ((TextView)view).getText().toString();
+                //String item = ((TextView)view).getText().toString();
+                //String website = ((Article)parent).getWebsite();
+                //Toast.makeText(getBaseContext(), item, Toast.LENGTH_LONG).show();
 
-                Toast.makeText(getBaseContext(), item, Toast.LENGTH_LONG).show();
+                //String website = id[position].getWebsite();
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.viralandroid.com"));
+                startActivity(browserIntent);
 
             }
         });
 
+    }
+
+    /** Called when the user clicks the Send button */
+    public void NewsFeed(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.viralandroid.com"));
+        startActivity(browserIntent);
+    }
+
+    /** Called when the user clicks the Send button */
+    public void Books(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.viralandroid.com"));
+        startActivity(browserIntent);
+    }
+
+    /** Called when the user clicks the Send button */
+    public void Journals(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.viralandroid.com"));
+        startActivity(browserIntent);
+    }
+    /** Called when the user clicks the Send button */
+    public void Magazines(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.viralandroid.com"));
+        startActivity(browserIntent);
     }
 }
